@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background: url('./background.jpg') center/cover fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.landing-page-container {
+  padding: 200px;
+  text-align: center;
+}
+
+.landing-content {
+  color: #333;
+}
+
+.btn-signup,
+.btn-login {
+  display: inline-block;
+  margin: 8px;
+  padding: 7px 9px;
+  text-decoration: none;
+  color: #020202;
+  background-color: #fffb00;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-login {
+  background-color: #fffb00;
+}
+
+.btn-signup:hover,
+.btn-login:hover {
+  background-color: #ffcc12;
+}
+
+#india-text {
+  font-size: 250px; /* Adjust the font size as needed */
+  color: rgba(255, 255, 255, 0.7); /* Semi-transparent white color */
+  margin-bottom: 20px;
+}
+.btn-dashboard{
+  color: white;
+}
